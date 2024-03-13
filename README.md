@@ -1,6 +1,6 @@
 <div align="center">
   
-# [Project-Template.](Repository-URL) <img src="Icon-Image-URL"  width="3%" height="3%">
+# [Repository-Name.](Repository-URL) <img src="Icon-Image-URL"  width="3%" height="3%">
 
 </div>
 
@@ -16,10 +16,10 @@ Project-Description.
 
 <div align="center">
 
-![GitHub Code Size in Bytes Badge](https://img.shields.io/github/languages/code-size/BrenoFariasdaSilva/Project-Template)
-![GitHub Last Commit Badge](https://img.shields.io/github/last-commit/BrenoFariasdaSilva/Project-Template)
-![GitHub License Badge](https://img.shields.io/github/license/BrenoFariasdaSilva/Project-Template)
-![Wakatime Badge](https://wakatime.com/badge/github/BrenoFariasdaSilva/Project-Template.svg)
+![GitHub Code Size in Bytes Badge](https://img.shields.io/github/languages/code-size/BrenoFariasdaSilva/Repository-Name)
+![GitHub Last Commit Badge](https://img.shields.io/github/last-commit/BrenoFariasdaSilva/Repository-Name)
+![GitHub License Badge](https://img.shields.io/github/license/BrenoFariasdaSilva/Repository-Name)
+![Wakatime Badge](https://wakatime.com/badge/github/BrenoFariasdaSilva/Repository-Name.svg)
 
 </div>
 
@@ -30,7 +30,7 @@ Project-Description.
 </div>
 
 ## Table of Contents
-- [Project-Template. ](#project-template-)
+- [Repository-Name. ](#repository-name-)
 	- [Table of Contents](#table-of-contents)
 	- [Introduction](#introduction)
 	- [Requirements](#requirements)
@@ -62,8 +62,8 @@ Bullet points of the requirements.
 1. Clone the repository with the following command:
 
 ```bash
-git clone https://github.com/BrenoFariasdaSilva/Project-Template.git
-cd Project-Template
+git clone https://github.com/BrenoFariasdaSilva/Repository-Name.git
+cd Repository-Name
 ```
 
 ### Dependencies
@@ -76,7 +76,7 @@ make dependencies
 
 ### Dataset - Optional
 
-1. Download the dataset from [WEBSITE-HERE]() and place it in this project directory `(/Project-Template)` and run the following command:
+1. Download the dataset from [WEBSITE-HERE]() and place it in this project directory `(/Repository-Name)` and run the following command:
 
 ```bash
 make dataset
@@ -102,12 +102,12 @@ Code improvement recommendations are very welcome. In order to contribute, follo
 
 ### Apache License 2.0
 
-This project is licensed under the [Apache License 2.0](LICENSE), which allows you to use, modify, distribute, and sublicense this code, even for commercial purposes, as long as you include the original copyright notice and attribute you as the original author for the repository. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the [Apache License 2.0](LICENSE), which permits use, modification, distribution, and sublicensing of this code, including for commercial purposes, provided that the original copyright notice is included and proper credit is given to [Breno Farias da Silva](https://github.com/BrenoFariasdaSilva) as the original author of the repository. See the [LICENSE](LICENSE) file for more details.
 
 ### Creative Commons Zero v1.0 Universal
 
-This project is licensed under the [Creative Commons Zero v1.0 Universal](LICENSE), which means you are free to use, modify, and distribute the code, as long as you mention include the license and attribute you as the original author for the repository. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the [Creative Commons Zero v1.0 Universal](LICENSE), which permits use, modification, distribution, and sublicensing of this code, including for commercial purposes, provided that the original copyright notice is included and proper credit is given to [Breno Farias da Silva](https://github.com/BrenoFariasdaSilva) as the original author of the repository. See the [LICENSE](LICENSE) file for more details.
 
 ### MIT License
 
-This project is licensed under the LICENSE-HERE License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the [LICENSE](LICENSE), which permits use, modification, distribution, and sublicensing of this code, including for commercial purposes, provided that the original copyright notice is included and proper credit is given to [Breno Farias da Silva](https://github.com/BrenoFariasdaSilva) as the original author of the repository. See the [LICENSE](LICENSE) file for more details.
