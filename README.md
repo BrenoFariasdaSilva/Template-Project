@@ -36,6 +36,8 @@ Project-Description.
   - [Requirements](#requirements)
   - [Setup](#setup)
     - [Clone the repository](#clone-the-repository)
+  - [Installation:](#installation)
+  - [Run Programing Language Code:](#run-programing-language-code)
     - [Dependencies](#dependencies)
     - [Dataset - Optional](#dataset---optional)
   - [Usage](#usage)
@@ -71,6 +73,31 @@ Bullet points of the requirements.
 ```bash
 git clone https://github.com/Your-Name/Repository-Name.git
 cd Repository-Name
+```
+
+## Installation:
+* Programing Language:
+
+	* Manually:
+		```bash
+		# Programing Language:
+		sudo apt-get install program-language -y
+		```
+
+  * Using Makefile:
+    ```bash
+    make install
+    ```
+
+  * Using ShellScript:
+    ```bash
+    chmod +x install.sh
+    sudo ./install.sh
+    ```  
+
+## Run Programing Language Code:
+```bash
+# Command here 
 ```
 
 ### Dependencies
