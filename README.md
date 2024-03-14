@@ -1,6 +1,6 @@
 <div align="center">
   
-# [Repository-Name.](Repository-URL) <img src="Icon-Image-URL"  width="3%" height="3%">
+# [Project-Template.](Repository-URL) <img src="Icon-Image-URL"  width="3%" height="3%">
 
 </div>
 
@@ -16,12 +16,12 @@ Project-Description.
 
 <div align="center">
 
-![GitHub Code Size in Bytes Badge](https://img.shields.io/github/languages/code-size/Your-Name/Repository-Name)
-![GitHub Last Commit Badge](https://img.shields.io/github/last-commit/Your-Name/Repository-Name)
-![GitHub forks](https://img.shields.io/github/forks/Your-Name/Repository-Name)
-![GitHub language count](https://img.shields.io/github/languages/count/Your-Name/Repository-Name)
-![GitHub License Badge](https://img.shields.io/github/license/Your-Name/Repository-Name)
-![Wakatime Badge](https://wakatime.com/badge/github/Your-Name/Repository-Name.svg)
+![GitHub Code Size in Bytes Badge](https://img.shields.io/github/languages/code-size/BrenoFariasDaSilva/Project-Template)
+![GitHub Last Commit Badge](https://img.shields.io/github/last-commit/BrenoFariasDaSilva/Project-Template)
+![GitHub forks](https://img.shields.io/github/forks/BrenoFariasDaSilva/Project-Template)
+![GitHub language count](https://img.shields.io/github/languages/count/BrenoFariasDaSilva/Project-Template)
+![GitHub License Badge](https://img.shields.io/github/license/BrenoFariasDaSilva/Project-Template)
+![Wakatime Badge](https://wakatime.com/badge/github/BrenoFariasDaSilva/Project-Template.svg)
 
 </div>
 
@@ -32,7 +32,7 @@ Project-Description.
 </div>
 
 ## Table of Contents
-- [Repository-Name. ](#repository-name-)
+- [Project-Template. ](#project-template-)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Requirements](#requirements)
@@ -73,8 +73,8 @@ Bullet points of the requirements.
 1. Clone the repository with the following command:
 
 ```bash
-git clone https://github.com/Your-Name/Repository-Name.git
-cd Repository-Name
+git clone https://github.com/BrenoFariasDaSilva/Project-Template.git
+cd Project-Template
 ```
 
 ## Installation:
@@ -112,7 +112,7 @@ make dependencies
 
 ### Dataset - Optional
 
-1. Download the dataset from [WEBSITE-HERE]() and place it in this project directory `(/Repository-Name)` and run the following command:
+1. Download the dataset from [WEBSITE-HERE]() and place it in this project directory `(/Project-Template)` and run the following command:
 
 ```bash
 make dataset
