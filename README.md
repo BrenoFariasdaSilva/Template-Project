@@ -81,7 +81,7 @@ cd Repository-Name
 	* Manually:
 		```bash
 		# Programing Language:
-		sudo apt-get install program-language -y
+		sudo apt install program-language -y
 		```
 
   * Using Makefile:
