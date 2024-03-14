@@ -18,6 +18,8 @@ Project-Description.
 
 ![GitHub Code Size in Bytes Badge](https://img.shields.io/github/languages/code-size/Your-Name/Repository-Name)
 ![GitHub Last Commit Badge](https://img.shields.io/github/last-commit/Your-Name/Repository-Name)
+![GitHub forks](https://img.shields.io/github/forks/Your-Name/Repository-Name)
+![GitHub language count](https://img.shields.io/github/languages/count/Your-Name/Repository-Name)
 ![GitHub License Badge](https://img.shields.io/github/license/Your-Name/Repository-Name)
 ![Wakatime Badge](https://wakatime.com/badge/github/Your-Name/Repository-Name.svg)
 
