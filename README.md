@@ -18,8 +18,8 @@ Project-Description.
 
 ![GitHub Code Size in Bytes Badge](https://img.shields.io/github/languages/code-size/BrenoFariasDaSilva/Project-Template)
 ![GitHub Last Commit Badge](https://img.shields.io/github/last-commit/BrenoFariasDaSilva/Project-Template)
-![GitHub forks](https://img.shields.io/github/forks/BrenoFariasDaSilva/Project-Template)
-![GitHub language count](https://img.shields.io/github/languages/count/BrenoFariasDaSilva/Project-Template)
+![GitHub Forks](https://img.shields.io/github/forks/BrenoFariasDaSilva/Project-Template)
+![GitHub Language Count](https://img.shields.io/github/languages/count/BrenoFariasDaSilva/Project-Template)
 ![GitHub License Badge](https://img.shields.io/github/license/BrenoFariasDaSilva/Project-Template)
 ![Wakatime Badge](https://wakatime.com/badge/github/BrenoFariasDaSilva/Project-Template.svg)
 
