@@ -1,6 +1,6 @@
 <div align="center">
   
-# [Project-Template.](Repository-URL) <img src="Icon-Image-URL"  width="3%" height="3%">
+# [Template-Project.](Repository-URL) <img src="Icon-Image-URL"  width="3%" height="3%">
 
 </div>
 
@@ -16,12 +16,12 @@ Project-Description.
 
 <div align="center">
 
-![GitHub Code Size in Bytes Badge](https://img.shields.io/github/languages/code-size/BrenoFariasDaSilva/Project-Template)
-![GitHub Last Commit Badge](https://img.shields.io/github/last-commit/BrenoFariasDaSilva/Project-Template)
-![GitHub Forks](https://img.shields.io/github/forks/BrenoFariasDaSilva/Project-Template)
-![GitHub Language Count](https://img.shields.io/github/languages/count/BrenoFariasDaSilva/Project-Template)
-![GitHub License Badge](https://img.shields.io/github/license/BrenoFariasDaSilva/Project-Template)
-![Wakatime Badge](https://wakatime.com/badge/github/BrenoFariasDaSilva/Project-Template.svg)
+![GitHub Code Size in Bytes Badge](https://img.shields.io/github/languages/code-size/BrenoFariasDaSilva/Template-Project)
+![GitHub Last Commit Badge](https://img.shields.io/github/last-commit/BrenoFariasDaSilva/Template-Project)
+![GitHub Forks](https://img.shields.io/github/forks/BrenoFariasDaSilva/Template-Project)
+![GitHub Language Count](https://img.shields.io/github/languages/count/BrenoFariasDaSilva/Template-Project)
+![GitHub License Badge](https://img.shields.io/github/license/BrenoFariasDaSilva/Template-Project)
+![Wakatime Badge](https://wakatime.com/badge/github/BrenoFariasDaSilva/Template-Project.svg)
 
 </div>
 
@@ -32,7 +32,7 @@ Project-Description.
 </div>
 
 ## Table of Contents
-- [Project-Template. ](#project-template-)
+- [Template-Project. ](#template-project-)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Requirements](#requirements)
@@ -67,8 +67,8 @@ Bullet points of the requirements.
 1. Clone the repository with the following command:
 
 ```bash
-git clone https://github.com/BrenoFariasDaSilva/Project-Template.git
-cd Project-Template
+git clone https://github.com/BrenoFariasDaSilva/Template-Project.git
+cd Template-Project
 ```
 
 ## Installation:
@@ -106,7 +106,7 @@ make dependencies
 
 ### Dataset - Optional
 
-1. Download the dataset from [WEBSITE-HERE]() and place it in this project directory `(/Project-Template)` and run the following command:
+1. Download the dataset from [WEBSITE-HERE]() and place it in this project directory `(/Template-Project)` and run the following command:
 
 ```bash
 make dataset
@@ -159,7 +159,7 @@ We thank the following people who contributed to this project:
   <tr>
     <td align="center">
       <a href="#" title="defina o titulo do link">
-        <img src="https://github.com/BrenoFariasdaSilva/Project-Template/blob/main/.assets/Images/Github.svg" width="100px;" alt="My Profile Picture"/><br>
+        <img src="https://github.com/BrenoFariasdaSilva/Template-Project/blob/main/.assets/Images/Github.svg" width="100px;" alt="My Profile Picture"/><br>
         <sub>
           <b>Breno Farias da Silva</b>
         </sub>
@@ -167,7 +167,7 @@ We thank the following people who contributed to this project:
     </td>
     <td align="center">
       <a href="#" title="defina o titulo do link">
-        <img src="https://github.com/BrenoFariasdaSilva/Project-Template/blob/main/.assets/Images/Github.svg" width="100px;" alt="My Profile Picture"/><br>
+        <img src="https://github.com/BrenoFariasdaSilva/Template-Project/blob/main/.assets/Images/Github.svg" width="100px;" alt="My Profile Picture"/><br>
         <sub>
           <b>Breno Farias da Silva</b>
         </sub>
@@ -175,7 +175,7 @@ We thank the following people who contributed to this project:
     </td>
     <td align="center">
       <a href="#" title="defina o titulo do link">
-        <img src="https://github.com/BrenoFariasdaSilva/Project-Template/blob/main/.assets/Images/Github.svg" width="100px;" alt="My Profile Picture"/><br>
+        <img src="https://github.com/BrenoFariasdaSilva/Template-Project/blob/main/.assets/Images/Github.svg" width="100px;" alt="My Profile Picture"/><br>
         <sub>
           <b>Breno Farias da Silva</b>
         </sub>
