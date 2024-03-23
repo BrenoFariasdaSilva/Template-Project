@@ -16,12 +16,14 @@ Project-Description.
 
 <div align="center">
 
-![GitHub Code Size in Bytes Badge](https://img.shields.io/github/languages/code-size/BrenoFariasDaSilva/Template-Project)
-![GitHub Last Commit Badge](https://img.shields.io/github/last-commit/BrenoFariasDaSilva/Template-Project)
+![GitHub Code Size in Bytes](https://img.shields.io/github/languages/code-size/BrenoFariasdaSilva/Template-Project)
+![GitHub Commits](https://img.shields.io/github/commit-activity/t/BrenoFariasDaSilva/Template-Project/main)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/BrenoFariasdaSilva/Template-Project)
 ![GitHub Forks](https://img.shields.io/github/forks/BrenoFariasDaSilva/Template-Project)
 ![GitHub Language Count](https://img.shields.io/github/languages/count/BrenoFariasDaSilva/Template-Project)
-![GitHub License Badge](https://img.shields.io/github/license/BrenoFariasDaSilva/Template-Project)
-![Wakatime Badge](https://wakatime.com/badge/github/BrenoFariasDaSilva/Template-Project.svg)
+![GitHub License](https://img.shields.io/github/license/BrenoFariasdaSilva/Template-Project)
+![GitHub Stars](https://img.shields.io/github/stars/BrenoFariasdaSilva/Template-Project)
+![wakatime](https://wakatime.com/badge/github/BrenoFariasdaSilva/Template-Project.svg)
 
 </div>
 
