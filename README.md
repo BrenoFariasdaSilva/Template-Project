@@ -133,7 +133,7 @@ If you use the Repository-Name in your research, please cite it using the follow
 
 ```
 @misc{softwareRepository-Name:2024,
-  title = {Repository-Name: PProject-Description},
+  title = {Repository-Name: Project-Description},
   author = {Breno Farias da Silva},
   year = {2024},
   howpublished = {https://github.com/BrenoFariasdaSilva/Repository-Name},
