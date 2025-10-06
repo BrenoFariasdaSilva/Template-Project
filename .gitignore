@@ -22,6 +22,16 @@ desktop.ini
 */dataset/
 */results/
 
+# Environments
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
 # Ignore the Data Files
 *.csv
 *.xlsx
