@@ -13,14 +13,29 @@ desktop.ini
 *.tar.gz
 
 # Ignore the Data Directories
-*/Dados/
-*/Data/
-*/Dataset/
-*/Results/
-*/dados/
-*/data/
-*/dataset/
-*/results/
+*/Dados/*
+*/Data/*
+*/Dataset/*
+*/Datasets/*
+*/Results/*
+*/Result/*
+*/result/*
+*/results/*
+*/dados/*
+*/data/*
+*/dataset/*
+*/datasets/*
+
+# Ignore the Data Files
+*.csv
+*.json
+*.xml
+*.xls
+*.xlsx
+*.txt
+*.parquet
+!requirements.txt
+!README.md
 
 # Environments
 .env
