@@ -68,32 +68,34 @@ Bullet points of the requirements.
 
 1. Clone the repository with the following command:
 
-```bash
-git clone https://github.com/BrenoFariasDaSilva/Template-Project.git
-cd Template-Project
-```
+   ```bash
+   git clone https://github.com/BrenoFariasDaSilva/DDoS-Detector.git
+   cd DDoS-Detector
+   ```
 
 ## Installation:
+
 * Programing Language:
 
-	* Manually:
-		```bash
-		# Programing Language:
-		sudo apt install program-language -y
-		```
+  * Manually:
+      ```bash
+      # Programing Language:
+      sudo apt install program-language -y
+      ```
 
   * Using Makefile:
-    ```bash
-    make install
-    ```
+      ```bash
+      make install
+      ```
 
   * Using ShellScript:
-    ```bash
-    chmod +x install.sh
-    sudo ./install.sh
-    ```  
+      ```bash
+      chmod +x install.sh
+      sudo ./install.sh
+      ```  
 
 ## Run Programing Language Code:
+
 ```bash
 # Command here 
 ```
@@ -102,17 +104,17 @@ cd Template-Project
 
 1. Install the project dependencies with the following command:
 
-```bash
-make dependencies
-```
+   ```bash
+   make dependencies
+   ```
 
 ### Dataset - Optional
 
-1. Download the dataset from [WEBSITE-HERE]() and place it in this project directory `(/Template-Project)` and run the following command:
+1. Download the dataset from [WEBSITE-HERE]() and place it in this project directory `(/DDoS-Detector)` and run the following command:
 
-```bash
-make dataset
-```
+   ```bash
+   make dataset
+   ```
 
 ## Usage
 
@@ -181,7 +183,7 @@ We thank the following people who contributed to this project:
   <tr>
     <td align="center">
       <a href="#" title="defina o titulo do link">
-        <img src="https://github.com/BrenoFariasdaSilva/Template-Project/blob/main/.assets/Images/Github.svg" width="100px;" alt="My Profile Picture"/><br>
+        <img src="https://github.com/BrenoFariasdaSilva/DDoS-Detector/blob/main/.assets/Images/Github.svg" width="100px;" alt="My Profile Picture"/><br>
         <sub>
           <b>Breno Farias da Silva</b>
         </sub>
@@ -189,7 +191,7 @@ We thank the following people who contributed to this project:
     </td>
     <td align="center">
       <a href="#" title="defina o titulo do link">
-        <img src="https://github.com/BrenoFariasdaSilva/Template-Project/blob/main/.assets/Images/Github.svg" width="100px;" alt="My Profile Picture"/><br>
+        <img src="https://github.com/BrenoFariasdaSilva/DDoS-Detector/blob/main/.assets/Images/Github.svg" width="100px;" alt="My Profile Picture"/><br>
         <sub>
           <b>Breno Farias da Silva</b>
         </sub>
@@ -197,7 +199,7 @@ We thank the following people who contributed to this project:
     </td>
     <td align="center">
       <a href="#" title="defina o titulo do link">
-        <img src="https://github.com/BrenoFariasdaSilva/Template-Project/blob/main/.assets/Images/Github.svg" width="100px;" alt="My Profile Picture"/><br>
+        <img src="https://github.com/BrenoFariasdaSilva/DDoS-Detector/blob/main/.assets/Images/Github.svg" width="100px;" alt="My Profile Picture"/><br>
         <sub>
           <b>Breno Farias da Silva</b>
         </sub>
