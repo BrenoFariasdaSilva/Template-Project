@@ -25,4 +25,6 @@ desktop.ini
 # Ignore the Data Files
 *.csv
 *.xlsx
-.txt
+*.txt
+*.pdf
+*.json
