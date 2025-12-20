@@ -24,6 +24,7 @@ Project-Description.
 ![GitHub License](https://img.shields.io/github/license/BrenoFariasdaSilva/Template-Project)
 ![GitHub Stars](https://img.shields.io/github/stars/BrenoFariasdaSilva/Template-Project)
 ![GitHub Contributors](https://img.shields.io/github/contributors/BrenoFariasdaSilva/Template-Project)
+![GitHub Created At](https://img.shields.io/github/created-at/BrenoFariasdaSilva/Template-Project)
 ![wakatime](https://wakatime.com/badge/github/BrenoFariasdaSilva/Template-Project.svg)
 
 </div>
