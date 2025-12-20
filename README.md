@@ -23,6 +23,7 @@ Project-Description.
 ![GitHub Language Count](https://img.shields.io/github/languages/count/BrenoFariasDaSilva/Template-Project)
 ![GitHub License](https://img.shields.io/github/license/BrenoFariasdaSilva/Template-Project)
 ![GitHub Stars](https://img.shields.io/github/stars/BrenoFariasdaSilva/Template-Project)
+![GitHub Contributors](https://img.shields.io/github/contributors/BrenoFariasdaSilva/Template-Project)
 ![wakatime](https://wakatime.com/badge/github/BrenoFariasdaSilva/Template-Project.svg)
 
 </div>
