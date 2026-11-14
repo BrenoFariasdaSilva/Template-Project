@@ -204,3 +204,8 @@ Magnet\ Links\ from\ URL/*.csv
 **/Output/**
 
 !**/requirements.txt
+
+# Ignore committer scripts in any directory or subdirectory
+class_block_functions_committer.py
+functions_committer.py
+readme_sections_committer.py
