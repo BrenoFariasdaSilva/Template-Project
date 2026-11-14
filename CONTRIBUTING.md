@@ -1,105 +1,147 @@
-## [Contributing](CONTRIBUTING.md)
-
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. If you have suggestions for improving the code, your insights will be highly welcome.
-In order to contribute to this project, please follow the guidelines below or read the [CONTRIBUTING.md](CONTRIBUTING.md) file for more details on how to contribute to this project, as it contains information about the commit standards and the entire pull request process.
-Please follow these guidelines to make your contributions smooth and effective:
-
-### Step 1: Set Up Your Environment
-
-Before you can contribute, you need to set up your development environment. This steps are already explained in the [Setup](#setup) section.
-
 ### Step 2: Make Your Changes
 
-Now that your environment is set up, you're ready to start making changes. It's a good idea to start with a clear goal in mind. Are you fixing a bug, adding a feature, or improving documentation?
+Before making changes, create a descriptive branch:
 
-1. **Create a Branch**: Before diving into code changes, start by creating a new branch for your updates. This strategy helps keep your modifications neatly organized and distinct from the main project line, facilitating a smoother integration and review process later on. Choose a branch name that is both descriptive and reflective of the changes you're proposing.
-    ```sh
-    git checkout -b feature/AmazingFeature
-    ```
+```sh
+git checkout -b feature/AmazingFeature
+```
 
-2. **Make Your Changes**: With your branch ready, you can now focus on implementing your proposed changes, be it additions, modifications, or fixes. Here are some key points to keep in mind during this stage:
-   
-   - **Test Thoroughly**: Ensure your changes work as intended and don't introduce new problems. Adequate testing is crucial for maintaining the integrity and reliability of the project.
-   
-   - **Commit Wisely**: Large changes can make the review process daunting. Aim to break down big updates into smaller, more manageable commits. This approach not only eases the review process but also keeps the project history clear and understandable.
-   
-   - **Follow Standards**: Adhere to the project's coding conventions and standards. Consistency in coding practices ensures code readability and eases maintenance for all contributors. If you want to know a great commit standards, read the convention below, which is very similar to the [Conventional Commits](http://conventionalcommits.org) specification.
+Follow these guidelines:
+
+- **Test Thoroughly:** Ensure your changes work as intended and do not introduce regressions.
+- **Commit Wisely:** Divide changes into small, logically organized commits whenever possible.
+- **Follow Standards:** Respect the project's coding conventions and use the official [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/) specification.
 
 ### Crafting Your Commit Messages
 
-Your commit messages play a vital role in documenting the project's development history. They should be clear, concise, and informative. Here are some common types of commits and how to format their messages effectively:
+All commit messages must follow the **Conventional Commits 1.0.0** specification.
 
-   - **Features**: Introducing new features.
-     ```
-     FEAT: Add <FeatureName>
-     ```
-   
-   - **Bug Fixes**: Resolving issues or errors.
-     ```
-     FIX: Resolve <IssueDescription>. Closes #<IssueNumber>
-     ```
-   
-   - **Documentation**: Updating or adding to the documentation, including both code comments and README files.
-     ```
-     DOCS: Update <Section/Topic> documentation
-     ```
-   
-   - **Refactor**: Enhancing the code without changing its functionality, usually for readability, efficiency, or structure improvements.
-     ```
-     REFACTOR: Enhance <Component> for better <Aspect>
-     ```
-   
-   - **Snapshot**: Temporarily saving the current state of the project. Useful for marking specific points in development or experimentation and save it into git instead of simply using your IDE Stash feature, which is not visible to others and can be lost if not properly managed.
-     ```
-     SNAPSHOT: Temporary commit to save the current state for later reference
-     ```
+**Format:**
+
+```text
+<type>[optional scope][!]: <description>
+
+[optional body]
+
+[optional footer(s)]
+```
+
+**Rules:**
+
+1. **Type:** Identifies the change. Use `feat` for new features and `fix` for bug fixes.
+2. **Scope (optional):** Identifies the affected component, enclosed in parentheses, such as `feat(calculator)`.
+3. **Description:** A short summary following the required colon and space (`: `).
+4. **Body (optional):** Provides additional context, separated from the description by a blank line.
+5. **Footers (optional):** Provide metadata such as issue references or breaking changes.
+6. **Breaking changes:** Must be indicated using `!` immediately before `:` or a `BREAKING CHANGE:` footer.
+
+#### Common Commit Types
+
+| Type | Purpose |
+|---|---|
+| `feat` | Introduce a new feature. |
+| `fix` | Fix a bug. |
+| `docs` | Add or update documentation. |
+| `refactor` | Restructure code without fixing a bug or adding a feature. |
+| `test` | Add or update tests. |
+| `perf` | Improve performance. |
+| `style` | Make formatting changes without affecting behavior. |
+| `build` | Modify build systems or dependencies. |
+| `ci` | Update continuous integration configurations. |
+| `chore` | Perform maintenance tasks. |
+
+**Note:** The specification explicitly defines `feat`, `fix`, and breaking-change notation. Other types are permitted but are not mandated by the specification. This project uses the additional types above for consistency.
+
+#### Examples
+
+**New Feature:**
+```text
+feat(calculator): add daily electricity cost estimates
+```
+
+**Bug Fix:**
+```text
+fix(storage): prevent duplicate device identifiers
+```
+
+**Documentation:**
+```text
+docs(readme): update installation instructions
+```
+
+**Refactoring:**
+```text
+refactor(charts): simplify chart generation
+```
+
+**Tests:**
+```text
+test(calculations): add standby consumption tests
+```
+
+**Performance:**
+```text
+perf(calculations): reduce redundant computations
+```
+
+**Breaking Change:**
+```text
+feat(storage)!: change the backup file structure
+```
+
+Alternatively, use a footer:
+
+```text
+feat(storage): update the backup format
+
+BREAKING CHANGE: Existing backup files require migration.
+```
+
+**Commit with Body and Footer:**
+```text
+fix(bill-import): correct Copel tariff extraction
+
+Validate the extracted energy and distribution prices before
+applying the calculated tariff.
+
+Closes #123
+```
+
+#### Important Conventions
+
+- Use the exact format `<type>[optional scope][!]: <description>`.
+- Use lowercase types consistently for this project.
+- Scopes are optional and should describe the affected component.
+- Separate the description, body, and footers with blank lines.
+- Use `BREAKING CHANGE:` in uppercase when declaring a breaking change in a footer.
+- Avoid combining unrelated changes into a single commit.
+- Do not use the previous custom uppercase formats (`FEAT:`, `FIX:`, `DOCS:`, etc.).
 
 ### Navigating Commits
 
-If you need to revert to a previous state after making a snapshot or any commit, you can use the following commands:
+To undo the most recent local commit while preserving its changes in the staging area:
 
-- To undo the last commit and return your workspace to the state just before that commit (keeping your changes in the working directory):
-    ```sh
-    git reset --soft HEAD^
-    ```
-- To completely remove the last commit, including all changes (use with caution):
-    ```sh
-    git reset --hard HEAD^
-    ```
+```sh
+git reset --soft HEAD^
+```
 
-These commands are invaluable for refining your contributions, allowing you to adjust your approach before finalizing your commit.
+To discard the most recent local commit and its changes:
 
-By following these guidelines for your commits, you help ensure that your contributions are easily integrated and appreciated by the project team and community.
+```sh
+git reset --hard HEAD^
+```
 
-3. **Commit Your Changes**: After making sure your changes are thorough and well-organized, commit them to your branch. Use clear and concise commit messages that accurately describe the changes you've made and their impact on the project.
-    ```sh
-    git commit -m "FEAT: Add some AmazingFeature"
-    ```
-Remember, the quality of your commits and their messages significantly affects the review process and the overall development flow. It's always worth taking the extra time to review your changes and craft meaningful commit messages.
+**Warning:** `git reset --hard` permanently discards uncommitted changes to tracked files. Avoid rewriting commits already shared with others.
 
-### Step 3: Submit Your Contribution
+### Commit Your Changes
 
-After making your changes, you're ready to contribute them back to the original project.
+After reviewing and testing your changes, stage and commit them using the conventional format:
 
-1. **Push to GitHub**: Push your changes to your fork on GitHub.
-    ```sh
-    git push origin feature/AmazingFeature
-    ```
-2. **Open a Pull Request**: Go to the original repository on GitHub, and you should see a prompt to open a pull request from your new branch. Click the "Compare & pull request" button to begin the process.
-3. **Describe Your Changes**: Provide a title and detailed description of your changes in the pull request. Explain the rationale behind your changes, any issues they address, and any testing you've performed.
-4. **Submit the Pull Request**: Submit your pull request. The project maintainers will then review your contribution. Be open to feedback and ready to make further tweaks or improvements based on their suggestions.
+```sh
+git add .
+git commit -m "feat(calculator): add daily electricity cost estimates"
+```
 
-### Step 4: Stay Engaged
+Commit messages should accurately describe their changes. Multiple focused commits are preferable to one large commit containing unrelated modifications.
 
-After submitting your pull request, stay engaged in the conversation. The project maintainers may have questions or request changes before your contribution can be merged.
-
-- **Respond to Feedback**: Be responsive to comments and feedback from the project's maintainers. If changes are requested, make them promptly and update your pull request.
-- **Update Your Branch if Needed**: If your pull request has conflicts with the base branch, you may need to update your branch. You can do this by merging or rebasing your branch with the latest version of the base branch.
-
-### Step 5: Celebrate Your Contribution
-
-Once your pull request has been reviewed and merged, your contribution is now part of the project! Be proud of your work and celebrate your contribution to the open-source community.
-
----
-
-By following these steps, you can contribute effectively to projects and make a positive impact on the open-source ecosystem. Thank you for contributing!
+For the complete specification, refer to [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/).
