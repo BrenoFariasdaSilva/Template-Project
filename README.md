@@ -26,7 +26,6 @@ Project-Description.
 ![GitHub Contributors](https://img.shields.io/github/contributors/BrenoFariasdaSilva/Template-Project)
 ![GitHub Created At](https://img.shields.io/github/created-at/BrenoFariasdaSilva/Template-Project)
 ![wakatime](https://wakatime.com/badge/github/BrenoFariasdaSilva/Template-Project.svg)
-[![GitHub Repository Size](https://img.shields.io/github/repo-size/BrenoFariasdaSilva/Template-Project)](https://github.com/BrenoFariasdaSilva/Template-Project)
 [![Open Issues](https://img.shields.io/github/issues/BrenoFariasdaSilva/Template-Project)](https://github.com/BrenoFariasdaSilva/Template-Project/issues)
 [![Closed Issues](https://img.shields.io/github/issues-closed/BrenoFariasdaSilva/Template-Project)](https://github.com/BrenoFariasdaSilva/Template-Project/issues?q=is%3Aissue+is%3Aclosed)
 [![Open Pull Requests](https://img.shields.io/github/issues-pr/BrenoFariasdaSilva/Template-Project)](https://github.com/BrenoFariasdaSilva/Template-Project/pulls)
@@ -35,7 +34,6 @@ Project-Description.
 [![Merged PRs](https://img.shields.io/github/issues-search/BrenoFariasdaSilva/Template-Project?query=is%3Apr%20is%3Amerged&label=merged%20PRs&color=blue)](https://github.com/BrenoFariasdaSilva/Template-Project/pulls?q=is%3Apr+is%3Amerged)
 ![Purpose](https://img.shields.io/badge/Purpose-Repository%20Template-6f42c1)
 ![Workflow](https://img.shields.io/badge/Workflow-Conventional%20Commits-227c4a)
-
 ![Repobeats Statistics](https://repobeats.axiom.co/api/embed/c36c20e25527ac26cdc37e52e5e2335a58f758c8.svg)
 
 </div>
